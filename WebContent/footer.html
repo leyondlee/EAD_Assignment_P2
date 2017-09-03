@@ -1,0 +1,32 @@
+<hr>
+<div class="container footer text-center">
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; SP Games 2016</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+	    $('[data-toggle="tooltip"]').tooltip();   
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+		if(window.location.href.indexOf('#login-modal') != -1) {
+			$('#login-modal').modal('show');
+		}
+	});
+</script>
+
+<script type="text/javascript" src="js/userDetailsCheck.js"></script>
